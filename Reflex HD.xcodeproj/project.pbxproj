@@ -325,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68XCFMT863;
+				DEVELOPMENT_TEAM = 485795F5CV;
 				INFOPLIST_FILE = "Reflex HD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,7 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68XCFMT863;
+				DEVELOPMENT_TEAM = 485795F5CV;
 				INFOPLIST_FILE = "Reflex HD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
