@@ -22,12 +22,26 @@ class MainMenuScene: SKScene {
                     
                     // Present the scene
                     view!.presentScene(scene)
-                }
-            }
+                    
             
-            
-        }
         
     }
     
     }
+        }
+        for touch in touches {
+            let location = touch.location(in: self);
+            
+            if atPoint(location).name == "Settings1" {
+                if let scene = SettingsScene(fileNamed: "Settings") {
+                    // Set the scale mode to scale to fit the window
+                    scene.scaleMode = .aspectFill
+                    
+                    // Present the scene
+                    view!.presentScene(scene)
+    }
+     }
+            
+}
+ }
+ }
