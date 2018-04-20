@@ -43,5 +43,20 @@ class MainMenuScene: SKScene {
      }
             
 }
+        for touch in touches {
+            let location = touch.location(in: self);
+            
+            if atPoint(location).name == "Leaderboard" {
+                if let scene = LeaderboardScene(fileNamed: "Leaderboard") {
+                    // Set the scale mode to scale to fit the window
+                    scene.scaleMode = .aspectFill
+                    
+                    // Present the scene
+                    view?.presentScene(scene)
+                }                }
+            }
+            
+        }
+        
  }
- }
+
