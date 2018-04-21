@@ -63,6 +63,23 @@ class MainMenuScene: SKScene {
             
         }
         
+        for touch in touches {
+            let location = touch.location(in: self);
+            
+            if atPoint(location).name == "Shop" {
+                if let scene = ShopScene(fileNamed: "Shop") {
+                    // Set the scale mode to scale to fit the window
+                    scene.scaleMode = .aspectFill
+                    
+                    // Present the scene
+                    view?.presentScene(scene)
+                    
+                }
+                
+            }
+        
+        }
+        
     }
     
 }
